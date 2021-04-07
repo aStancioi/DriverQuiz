@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="300.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.MainappController">
+    <children>
+        <Text fx:id="question" layoutX="16.0" layoutY="26.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="408.6708984375">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Text>
+        <Text layoutX="720.0" layoutY="26.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nr. greșeli" textAlignment="CENTER" wrappingWidth="62.73046875">
+            <font>
+                <Font size="13.0" />
+            </font>
+        </Text>
+        <Text layoutX="625.0" layoutY="26.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Timp rămas">
+            <font>
+                <Font size="13.0" />
+            </font>
+        </Text>
+        <Text fx:id="failDisplay" layoutX="746.0" layoutY="44.0" onMouseClicked="#closeApp" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+        <Text fx:id="timeDisplay" layoutX="648.0" layoutY="43.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+        <CheckBox fx:id="checkBox1" layoutX="16.0" layoutY="70.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="780.0" text="CheckBox" />
+        <CheckBox fx:id="checkBox2" layoutX="16.0" layoutY="130.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="780.0" text="CheckBox" />
+        <CheckBox fx:id="checkBox3" layoutX="16.0" layoutY="190.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="780.0" text="CheckBox" />
+        <Button fx:id="nextButton" layoutX="725.0" layoutY="261.0" mnemonicParsing="false" onMouseClicked="#goToNext" prefHeight="28.0" prefWidth="58.0" text="Next" />
+        <Button fx:id="skipButton" layoutX="655.0" layoutY="261.0" mnemonicParsing="false" onMouseClicked="#skipQuestion" prefHeight="28.0" prefWidth="58.0" text="Skip" />
+    </children>
+</AnchorPane>

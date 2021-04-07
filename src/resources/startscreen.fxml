@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="253.0" prefWidth="552.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.StartscreenController">
+    <children>
+        <Text layoutX="55.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Apasă butonul &quot;START&quot; pentru a începe &#10;examinarea" textAlignment="CENTER">
+            <font>
+                <Font size="25.0" />
+            </font>
+        </Text>
+        <Button fx:id="startButton" layoutX="207.0" layoutY="111.0" mnemonicParsing="false" onMouseClicked="#startApp" prefHeight="45.0" prefWidth="124.0" text="START">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Button>
+        <Button fx:id="exitButton" layoutX="224.0" layoutY="180.0" mnemonicParsing="false" onMouseClicked="#closeApp" prefHeight="45.0" prefWidth="90.0" text="IEȘIRE">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>
